@@ -21,8 +21,8 @@ void main()
     else if(d>0)
     {
     	printf("This EQ has 2 real roots\n");
-    	x1=(-b+pow(d,1/2))/2*a;
-    	x2=(-b-pow(d,1/2))/2*a;
+    	x1=(-b+sqrt(d))/2*a;
+    	x2=(-b-sqrt(d))/2*a;
     	printf("x1=%lf\n",x1);
     	printf("x2=%lf",x2);
 	}
